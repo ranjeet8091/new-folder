@@ -1,0 +1,14 @@
+1) npm init -y
+2)npm i express
+3)npm i redis
+
+4)import redis 
+5)create client of redis
+
+
+
+to install redis 
+docker :docker exec -it redis redis-cli
+to start server
+docker run -d --name redis -p 6379:6379 redis:7.2.7
+ 

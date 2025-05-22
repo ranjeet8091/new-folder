@@ -1,0 +1,5 @@
+for same folder we are using
+npm create vite@latest ./
+after then select configurations
+npm install
+after that npm run devS

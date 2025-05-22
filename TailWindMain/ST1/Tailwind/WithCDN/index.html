@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+        integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- header Start -->
+    <header>
+        <div class="flex justify-between h-[80px] bg-red-300  ">
+            <div class="flex gap-13 justify-center items-center">
+                <div class="logo text-3xl font-bold ml-4">LOGO</div>
+                <div class="mt-1 text-xl">
+                    <ul type="none" class="flex gap-3 font-semibold cursor-pointer">
+                        <li class="hover:text-red-500 hover:border-b-2 transition ease-in-out duration-300">Home</li>
+                        <li class="hover:text-red-500 hover:border-b-2 transition ease-in-out duration-300">Service</li>
+                        <li class="hover:text-red-500 hover:border-b-2 transition ease-in-out duration-300">About us</li>
+                        <li class="hover:text-red-500 hover:border-b-2 transition ease-in-out duration-300">Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="relative group ">
+                <div class=" bg-red-400 h-full w-[50px]  flex justify-center items-center">
+                    <i class="fa-solid fa-coffee cursor-pointer"></i>
+                </div>
+                <div class="absolute hidden group-hover:block top-full right-1 w-[140px] bg-red-300">
+                    <div class="p-2 cursor-pointer hover:shadow-2xl hover:bg-red-400">Ranjeet Tiwari</div>
+                    <div class="p-2 cursor-pointer hover:shadow-2xl hover:bg-red-400">Sagar Gupta</div>
+                    <div class="p-2 cursor-pointer hover:shadow-2xl hover:bg-red-400">Vivek</div>
+                    <div class="p-2 cursor-pointer hover:shadow-2xl hover:bg-red-400">Ruhael</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <section>
+        <div class="flex justify-between">
+            <div class="m-4 border-2 rounded w-[45%] m-3 hover:shadow-2xl hover:shadow-red-400  duration-300">
+                <div class="flex justify-center">I am Ranjeet</div>
+                <div class="p-3">
+                    <img src="./png/png.jpg" alt="">
+                </div>
+            </div>
+            <div class="m-4 border-2 rounded w-[45%] hover:shadow-2xl hover:shadow-red-400  duration-300">
+                <div class="flex justify-center">I am Vivek</div>
+                <div class="p-3">
+                    <img src="./png/png.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

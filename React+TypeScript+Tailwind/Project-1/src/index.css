@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@layer utilities{
+    .container{
+        @apply pl-12 mx-auto
+    }
+}

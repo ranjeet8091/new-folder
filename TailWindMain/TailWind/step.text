@@ -1,0 +1,26 @@
+Create a Main folder 
+install node_module,package-lock.json,package.json with the help of { npm i -D tailwindcss}
+after that create dist folder in this create a folder of css in it create a style.css file, and a file of index.html
+after that create a folder of src and int it create input.css (class are suggestion with yellow line) remove this with the help
+(ctrl_shft+p) open and write change language mode and then write tailwind css and select it 
+to get (tailwind.config.js) use command (npx tailwindcss init)
+content: ["./dist/*.html"] apply changes in it
+to execute this we can use (npx tailwindcss -i ./src/input.css -o ./disk/css/style.css)
+or this is use for automatical changes are apended in style.css in css folder 
+{npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch}
+
+
+
+
+
+
+
+class
+text-xs // test extra small
+text-sm
+text-normal
+text-lg
+text-xl
+text- red - 300
+font- semiblod
+bg-red-100

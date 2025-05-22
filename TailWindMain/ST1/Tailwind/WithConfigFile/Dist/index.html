@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="shadow-2xl px-2 bg-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Left Section: Brand Name and Input -->
+            <div class="flex items-center gap-5">
+                <div class="text-blue-500 text-3xl font-bold">Ranjeet Tiwari</div>
+                <input type="text" 
+                    class="border border-blue-500 p-2 rounded focus:outline-none focus:ring focus:border-blue-300" 
+                    placeholder="Enter your name">
+            </div>
+    
+            <!-- Right Section: Dropdown Menu -->
+            <div class="relative group">
+                <div class="bg-slate-500 text-blue-500 text-3xl font-semibold cursor-pointer px-4 py-2 rounded">
+                    BAR
+                </div>
+                <div class="absolute hidden group-hover:block mt-0 w-full min-w-[150px] bg-white border border-gray-200 rounded shadow-lg">
+                   
+                    <div class="p-2 cursor-pointer text-gray-500 hover:bg-gray-100">Shoes</div>
+                    <div class="p-2 cursor-pointer text-gray-500 hover:bg-gray-100">Shirt</div>
+                    <div class="p-2 cursor-pointer text-gray-500 hover:bg-gray-100">Jean</div>
+                    <div class="p-2 cursor-pointer text-gray-500 hover:bg-gray-100">Electronics</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Section  -->
+     <div class="grid place-items-center h-screen bg-red-400">
+    <div class="text-center transition hover:text-green-500 ">
+        <span class="text-4xl font-bold">Hi, I'm</span><br>
+        <span class="text-2xl font-semibold">Ranjeet</span>    
+    </div>
+</div>
+
+    
+
+</body>
+
+</html>
