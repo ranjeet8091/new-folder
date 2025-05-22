@@ -1,0 +1,26 @@
+ [
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with adjustable DPI.",
+      "price": 29.99
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "description": "RGB backlit mechanical keyboard with blue switches.",
+      "price": 89.99
+    },
+    {
+      "id": 3,
+      "name": "USB-C Hub",
+      "description": "Multi-port USB-C hub with HDMI and Ethernet.",
+      "price": 49.99
+    },
+    {
+      "id": 4,
+      "name": "Noise-Cancelling Headphones",
+      "description": "Over-ear headphones with active noise cancellation.",
+      "price": 199.99
+    }
+  ]
